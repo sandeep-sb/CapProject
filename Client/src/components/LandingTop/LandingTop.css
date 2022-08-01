@@ -1,0 +1,169 @@
+/* .LandingTop{
+    margin: 0;
+    padding: 0;
+} */
+.details{
+    background-color: #000000;
+    background-image: linear-gradient(140deg, #000000 0%, #2c3e50 74%);
+ height: 50px;
+}
+
+.User{
+
+    color: White;
+    /* border: 1px solid rgb(104, 104, 105); */
+    display: inline-flex;
+    border-radius: 55px;
+    padding: 5px 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.LandingIcon{
+    margin-right: 5px;
+}
+.LandingIconDown{
+    margin-left: 5px;
+}
+
+.options{
+    text-align: left;
+    width: 120px;
+    height: 100px;
+    color: rgb(118, 117, 117);
+    position: absolute;
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+    right: 10px;
+    padding-top: 12px;
+    top: 46px;
+    z-index: 2;
+    
+    
+}
+
+.options>ul>li{
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.optionsIcons{
+    float: right;
+    padding-right: 10px;
+    margin-top: 6px;
+    color: #8c8d8e;
+} 
+
+.optionsHidden{
+    text-align: left;
+    width: 120px;
+    height: 100px;
+    color: rgb(118, 117, 117);
+    position: absolute;
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+    right: 10px;
+    padding-top: 12px;
+    top: 46px;
+    z-index: 2;
+    
+    display: none;
+    
+}
+
+.list-group>li:hover{
+    color: white;
+}
+
+h1{
+    text-decoration: none;
+    color: #787878;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: #ffffff;
+    transform: scale(1.04);
+}
+
+.LandingTop{
+    margin: 0;
+    background-color: rgb(45, 45, 45);
+}
+
+.LandingTopDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .User{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-register{
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5em;
+}
+
+.login-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font: bold;
+    padding: 5px;
+    width: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    transform: scale(1.04);
+}
+
+.signup-btn{
+    color: #787878; 
+    cursor: pointer;
+    align-self: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.signup-btn:hover{
+    color: #ffffff;
+    transform: scale(1.04);
+}
+
+.User .username{
+    align-self: center;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.User .logout-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    width: 5em;
+    max-height: 3em;
+    cursor: pointer;
+    align-self: center;
+}
+
+.logout-btn:hover{
+    transform: scale(1.5);
+}
