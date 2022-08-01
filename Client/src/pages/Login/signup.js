@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useSignup } from "../../hooks/useSignup"
+import "./signup.css"
 
 
 const Signup = () => {
@@ -11,13 +12,13 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    await signup(email, password)
+    await signup(username, email, password)
   }
 
   return (
-    <>
+    <div className="register-page">
     <form className="signup" onSubmit={handleSubmit}>
-      <h3>Sign Up</h3>
+      <div className="sign-up-heading">Sign Up</div>
       
       <label>Username:</label>
       <input 
@@ -41,7 +42,7 @@ const Signup = () => {
       <button disabled={isLoading}>Sign up</button>
       {error && <div className="error">{error}</div>}
     </form>
-    </>
+    </div>
   )
 }
 

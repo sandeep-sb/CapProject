@@ -10,8 +10,12 @@ import { CardActionArea } from "@mui/material";
 import Login from "../../img/login.PNG";
 import AddToPlaylistModal from "../AddToPlaylistModal/AddToPlaylistModal";
 import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
+import {useAuthContext} from "../../hooks/useAuthContext"
+
 
 export default function SliderComponent_2() {
+  const {user} = useAuthContext();
+
   const [opened, setOpened] = useState(false);
   const [heart, setHeart] = useState(
     "slider-component2_heart fa-regular fa-heart float-end text-end"

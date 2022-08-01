@@ -1,0 +1,11 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
